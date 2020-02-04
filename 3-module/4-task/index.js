@@ -3,4 +3,6 @@
  * @returns {string[]}  объект
  */
 function namify(users) {
+  return users.map(x => x.name);
 }
+
